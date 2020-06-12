@@ -1,11 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import './App.css';
-import Amplify, { API, Storage, Auth } from 'aws-amplify'
-import { AmplifyAuthenticator, AmplifySignUp, AmplifySignOut, AmplifySignIn, withAuthenticator } from '@aws-amplify/ui-react';
-import { BrowserRouter as Router,
-    Switch,
-    Route,
-    Link} from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import Upload from "./Upload";
 import Query from "./Query";
 import Home from "./Home";

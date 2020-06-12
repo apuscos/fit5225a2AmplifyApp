@@ -1,6 +1,6 @@
 import React from "react";
 import {Storage} from "aws-amplify";
-import { AmplifyAuthenticator, AmplifySignUp, AmplifySignOut, AmplifySignIn, withAuthenticator } from '@aws-amplify/ui-react';
+import { AmplifyAuthenticator, AmplifySignUp, AmplifySignOut, AmplifySignIn } from '@aws-amplify/ui-react';
 
 
 class Upload extends React.Component {

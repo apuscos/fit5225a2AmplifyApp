@@ -1,9 +1,6 @@
 import {API, Auth} from "aws-amplify";
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {AmplifyAuthenticator, AmplifySignIn, AmplifySignOut, AmplifySignUp} from "@aws-amplify/ui-react";
-
-
-
 
 
 function Query() {
